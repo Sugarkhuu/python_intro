@@ -10,7 +10,7 @@ Created on Tue Nov 27 23:15:19 2018
 # "" and '' are the same
 
 my_str = "Hello World!"
-str1 = ''
+
 
 #Basics
 
@@ -24,11 +24,10 @@ my_str[2:5]
 my_str[-1]
 my_str[-2]
 my_str[0:-2]
-my_str[20]
-my_str[-7]
-my_str[-10]
-my_str[-11]
-my_str[9]
+
+# Reverse
+#my_str[1:5:2]
+my_str[::-1]
 
 #Legnth and others
 
@@ -38,7 +37,7 @@ min(my_str)
 
 # Strip
 
-str = "0000000wow l daa!!!0000000";
+str = "0000000wow l daa!!!0000000"
 print(str.strip( '0' ))
 
 # Up down
@@ -52,13 +51,12 @@ my_str.title()
 #Repeat
 my_str * 5
 
-# Reverse
-#my_str[1:5:2]
-my_str[::-1]
 
 #Membership in or not in
 
-my_str in (my_str, 'Chiher', 'Jims')
+my_str in ('Chiher', 'Jims')
+
+# Find and index
 
 my_word = 'World'
 
@@ -85,18 +83,21 @@ str.split("-")
 
 #Join
 
+str1 = "Hi Hi"
+
 str3 = str1 + my_str
 print(str3)
 str3 = str1 + " " + my_str
 
 seq = ("Бат", "Эрдэнэ")
-s = "::"
+s = "-"
 s.join(seq)
 
 
 #Conversion to string
 
 pi = 22/7
+
 print("Пи тоо нь ойролцоогоор " + str(pi) + "-тай тэнцүү.")
 
 
