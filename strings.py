@@ -4,17 +4,15 @@ Created on Tue Nov 27 23:15:19 2018
 
 @author: Sugar2
 """
-
+# Reference
 # https://www.tutorialspoint.com/python/python_strings.htm
 
 
 str1 = "Hello World!"
 str2 = 'Hi Mongol!'
 
-str1.replace('o','y');
+str1.replace('o','y')
 str2.replace('l', 'lians')
-
-print(str1, "\n",str2)
 
 str2[4]
 str2[0]
@@ -61,56 +59,33 @@ print("Пи тоо нь ойролцоогоор " + str(pi) + "-тай тэнц
 
 
 len(str2)
-count(str2,1,5)
 max(str2)
 min(str1)
 
-hi = 'Hi'
+Hi = 'Hi'
 
-str2.find(hi,0)
-str2.index(hi,0)
+str2.find(Hi,0)
+str2.index(Hi,0)
 
 seq = ("Бат", "Эрдэнэ")
-s = "-"
+s = "::"
 s.join(seq)
 
-str = "Бат-Эрдэнэ \nБаяр-Эрдэнэ \nОюун-Эрдэнэ";
+str = "Бат-Эрдэнэ Баяр-Эрдэнэ Оюун-Эрдэнэ";
 str.split()
-str.split(' ', 1 )
+str.split(' ')
 str.split("-")
 
-str = "0000000this is string example....wow!!!0000000";
+str = "0000000wow l daa!!!0000000";
 print(str.strip( '0' ))
 
 str.upper()
 str.lower()
 
-str = "batbayar from Golomt Bank"
+str = "tesla was very smart"
 str.capitalize()
 str.title()
 
-from string import maketrans   # Required to call maketrans function.
-
-input = "aeiou"
-output = "12345"
-tran = maketrans(intab, outtab)
-
-str = "this is string example....wow!!!";
-str.translate(trantab)
-
-
-
-
-#!/usr/bin/python
-
-from string import maketrans   # Required to call maketrans function.
-
-intab = "aeiou"
-outtab = "12345"
-trantab = maketrans(intab, outtab)
-
-str = "this is string example....wow!!!";
-str.translate(trantab, 'xm')
 
 
 
