@@ -1,2 +1,2 @@
 # python_intro
-Codes for online course Introduction to Python
+Codes for an online course "Introduction to Python"
